@@ -1,9 +1,15 @@
 import { Link } from 'react-router-dom'
 import './Signup.css'
+import logo from '../assets/logo.png'
 
 function Signup() {
   return (
-    <div className='login-container'>
+    <div className='signup-container'>
+
+      <div className='logo-container'>
+        <a href=""><img src={logo} alt="Logo" className='logo' /></a>
+      </div>
+
       <div className='signup-user-icon'>
         <i className="fa-solid fa-circle-user"></i>
       </div>
@@ -15,15 +21,14 @@ function Signup() {
         <input type="password" placeholder='Confirm Password' />
       </div>
 
-      <div>
-        <button className='signup-btn'>Sign Up</button>
-      </div>
+      <button className='signup-btn'>Sign Up</button>
 
       <div className='signup-link'>
         <p>
           Already have an account? <Link to="/">Login</Link>
         </p>
       </div>
+
     </div>
   )
 }

@@ -3,7 +3,7 @@
 .signup-container {
     margin-top: 10px;
   
-    background-color: rgb(8, 3, 39);
+    background-color: rgb(235, 130, 11);
   
     min-width: 300px;
   
@@ -56,7 +56,7 @@
   }
   
   .signup-container button:hover {
-    background-color: rgb(10, 5, 41);
+    background-color: rgb(109, 53, 0);
     color: white;
     transition: 0.5s;
   }
@@ -74,7 +74,7 @@
   .signup-link p a {
     position: relative;
     text-decoration: none;
-    color: #ff6f08;
+    color: #140902;
   }
   
   /* underline (hidden initially) */
