@@ -1,0 +1,120 @@
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(235, 130, 11);
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 60px;
+}
+
+.nav-1 {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    align-items: center;
+}
+
+.nav-1 a h2:hover {
+    color: rgb(194, 142, 65);
+    transition: 0.3s ease;
+}
+.nav-1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.nav-1 ul {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-1 ul li a {
+    position: relative;
+}
+
+.nav-1 ul li a:hover {
+    color: rgb(194, 142, 65);
+}
+
+.nav-1 ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0%;
+    height: 2px;
+    background: rgb(194, 142, 65);
+    transition: width 0.3s ease;
+}
+
+.nav-1 ul li a:hover::after {
+    width: 100%;
+}
+
+.nav-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    padding: 5px;
+}
+
+.nav-2 input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+
+.nav-3 {
+    display: flex;
+    width: 15%;
+}
+
+.nav-3 ul{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.nav-3 ul li a {
+    position: relative;
+    margin: 0 5px;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-3 ul li a:hover {
+    color: rgb(194, 142, 65);
+}
+
+.nav-3 ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0%;
+    background-color: rgb(194, 142, 65);
+    height: 2px;
+    transition: width 0.3s ease;
+}
+
+.nav-3 ul li a:hover::after {
+    width: 100%;
+}

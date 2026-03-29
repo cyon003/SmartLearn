@@ -7,7 +7,9 @@ function Signup() {
     <div className='signup-container'>
 
       <div className='logo-container'>
-        <a href=""><img src={logo} alt="Logo" className='logo' /></a>
+        <Link to="/homepage">
+          <img src={logo} alt="Home" className="logo" />
+        </Link>
       </div>
 
       <div className='signup-user-icon'>
